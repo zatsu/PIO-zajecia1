@@ -8,13 +8,17 @@
  *
  * @author Zatsu
  */
-public class NewMain {
+public class main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    PUSH? PLEASE?!    // TODO code application logic here
+        CD cd1 = new CD();
+        cd1.setTitle("jabuszko");
+        cd1.setYear(1990);
+        AudioCD cd = new AudioCD();
+        System.out.println(cd1);
     }
     
 }
